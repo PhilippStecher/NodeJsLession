@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop Pro",
+        "price": 1200,
+        "details": {
+            "brand": "TechBrand",
+            "memory": "16GB",
+            "storage": "512GB SSD"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Smartphone X",
+        "price": 800,
+        "details": {
+            "brand": "PhoneBrand",
+            "memory": "6GB",
+            "storage": "128GB"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "price": 200,
+        "details": {
+            "brand": "SoundBrand",
+            "batteryLife": "24 hours"
+        }
+    },
+    {
+        "id": 4,
+        "name": "E-Reader Readly",
+        "price": 150,
+        "details": {
+            "brand": "ReadBrand",
+            "batteryLife": "1 month",
+            "storage": "8GB"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Smartwatch HealthPlus",
+        "price": 250,
+        "details": {
+            "brand": "HealthBrand",
+            "batteryLife": "48 hours",
+            "features": "Heart Rate"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Gaming Console PlayMax",
+        "price": 400,
+        "details": {
+            "brand": "GameBrand",
+            "memory": "8GB",
+            "storage": "1TB"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Action Camera SnapIt",
+        "price": 300,
+        "details": {
+            "brand": "SnapBrand",
+            "resolution": "4K",
+            "batteryLife": "2 hours"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Portable Speaker SoundWave",
+        "price": 100,
+        "details": {
+            "brand": "WaveBrand",
+            "batteryLife": "10 hours",
+            "features": "Waterproof"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Tablet ViewMax",
+        "price": 350,
+        "details": {
+            "brand": "ViewBrand",
+            "memory": "4GB",
+            "storage": "64GB"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Fitness Tracker FitBand",
+        "price": 60,
+        "details": {
+            "brand": "FitBrand",
+            "features": "Sleep Monitoring, Step Counting"
+        }
+    }
+]
