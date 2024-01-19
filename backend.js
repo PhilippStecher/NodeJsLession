@@ -27,10 +27,13 @@ const saveOrder = async (orderData) => {
             const data = await fs.readFile(ordersFile);
             orders = JSON.parse(data.toString());
         } catch (err) {
-            if (err.code !== 'ENOENT') throw err; // Ignore file not found errors
+            if (err.code !== "ENOENT") throw err; // Ignore file not found errors
         }
 
-        const total = orderData.reduce((acc, item) => acc + item.price * item.quantity, 0);
+        const total = orderData.reduce(
+            (acc, item) => acc + item.price * item.quantity,
+            0
+        );
 
         const order = {
             id: uuidv4(),
